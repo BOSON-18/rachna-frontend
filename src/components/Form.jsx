@@ -18,7 +18,7 @@ const Form = () => {
           teammates: data.teammates,
         }
         
-        const result = await apiConnector("POST",process.env.VITE_BACKEND_BASE_ENDPOINT+"/submitForm",formData,{},{params:formData})
+        const result = await apiConnector("POST",import.meta.env.VITE_BACKEND_BASE_ENDPOINT+"/submitForm",formData,{},{params:formData})
 
         reset();
         alert("Submitted");
