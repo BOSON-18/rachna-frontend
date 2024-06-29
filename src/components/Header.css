@@ -76,7 +76,7 @@
   }
 
   #logo {
-    scale: 1;
+    scale: 0.8;
   }
 }
 
@@ -92,7 +92,7 @@
   }
 
   #logo {
-    scale: 1.2;
+    scale: 1;
     margin-top: 0;
   }
 }

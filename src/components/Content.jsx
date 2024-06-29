@@ -65,32 +65,36 @@ const Innovision = () => {
           <div>
             <h2>Welcome to Innovision 2024</h2>
             <p>
-              Welcome to Innovision 2024, an exciting competition organized by E-Cell IET DAVV. This event is designed to identify, nurture, and fund the next wave of innovative startups. Innovision will be a hybrid event, combining both online and offline components, providing a comprehensive platform for budding entrepreneurs.
+            <p> Welcome to Innovision, brought to you by E-Cell IET DAVV. </p> <br /> <p> This event is your chance to showcase visionary business plans, cutting-edge products, and growth strategies to seasoned professionals. </p> <br /> <p> Join us for an enriching experience and stand a chance to win exciting prizes. Bring your ideas to life and celebrate innovation at Innovision!</p> <br /> <span id='boldkaro'> Don't miss out—register today and let your ideas shine!</span>
+
+
+
             </p>
           </div>
         )}
         {activeSection === 'registration' && (
           <div id="kuchhtoh">
             <h2>Registration Details</h2>
-            <p>- Start Date: 28th June 2024</p><br />
-            <p>- End Date: 9th July 2024</p><br />
-            <p>- Platform: Online registration via our official website</p>
+            <p><span id="boldkaro">- Register Now:</span> Sign up and register through this form.</p><br />
+            <p><span id="boldkaro">- Mark the Deadline:</span> Submit your entries by 15th July.</p><br />
+            <p><span id="boldkaro">- Accuracy Matters:</span> Ensure all team details are correct to avoid disqualification.</p><br />
+            <p><span id="boldkaro">- Read Carefully:</span> Familiarize yourself with all prerequisites before submitting your entry.</p>
           </div>
         )}
         {activeSection === 'competition' && (
           <div>
             <h2>Competition Overview</h2>
             <p>
-              Innovision 2024 will consist of four stages of rigorous competition and also insightful speaker sessions. Each stage will have clearly defined criteria for judging and sorting startups, ensuring a fair and thorough evaluation process. Teams that qualify in the top tiers will be provided with funding up to INR 20,000 thousand and the opportunity to secure grants up to INR 10 lakhs.
+            Innovision 2024 will consist of four stages of rigorous competition and also insightful speaker sessions. Each stage will have clearly defined criteria for judging and sorting startups, ensuring a fair and thorough evaluation process. Teams that qualify in the top tiers will be provided with funding upto <span id="glowkaro">INR 30,000</span> thousand and the opportunity to secure iTBI grants up to <span id="glowkaro">INR 10 lakhs</span>.
             </p>
           </div>
         )}
         {activeSection === 'highlights' && (
           <div>
           <h2>Event Highlights</h2>
-          <p>- Hybrid Format: Some speaker sessions and competition stages will be conducted offline, while others will be online.</p><br />
-          <p>- Expert Panels: Gain insights from experienced entrepreneurs, industry experts, and investors.</p><br />
-          <p>- Networking Opportunities: Connect with fellow innovators, mentors, and potential investors.</p>
+          <p><span id="boldkaro">- Hybrid Format:</span> Some speaker sessions and competition stages will be conducted offline, while others will be online.</p><br />
+          <p><span id="boldkaro">- Expert Panels:</span> Gain insights from experienced entrepreneurs, industry experts, and investors.</p><br />
+          <p><span id="boldkaro">- Networking Opportunities:</span> Connect with fellow innovators, mentors, and potential investors.</p>
           </div>
         )}
       </div>

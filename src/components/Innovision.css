@@ -180,14 +180,25 @@
 .content h2 {
   margin-bottom: 10px;
   font-size: 24px;
+  color: white;
 }
 
 .content p,
 .content ul {
+  color: white;
   line-height: 1.6;
 }
 
 .content ul {
   list-style-type: disc;
   padding-left: 20px;
+}
+
+#boldkaro{
+  font-weight: bold;
+}
+
+#glowkaro{
+  font-weight: 500;
+  text-shadow: 2px 2px 5px #ADDDBA;
 }
