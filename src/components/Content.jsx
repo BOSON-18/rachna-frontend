@@ -43,7 +43,7 @@
 //   );
 // };
 
-// export default Innovision;
+// Aryan
 
 import React, { useState } from 'react';
 import './Innovision.css';
@@ -72,6 +72,7 @@ const Innovision = () => {
             </p>
           </div>
         )}
+        <div></div>
         {activeSection === 'registration' && (
           <div id="kuchhtoh">
             <h2>Registration Details</h2>
