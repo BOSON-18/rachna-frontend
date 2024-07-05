@@ -72,7 +72,7 @@ const Innovision = () => {
             </p>
           </div>
         )}
-        <div></div>
+        <div><div></div></div>
         {activeSection === 'registration' && (
           <div id="kuchhtoh">
             <h2>Registration Details</h2>
