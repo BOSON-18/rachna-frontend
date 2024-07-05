@@ -15,6 +15,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   margin-bottom: 20px;
 }
 
@@ -84,7 +85,6 @@ input:focus {
   color: #fff;
   font-family: monospace;
   overflow: hidden;
-  
   /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange;
   /* The typwriter cursor */
@@ -92,13 +92,11 @@ input:focus {
   /* Keeps the content on a single line */
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .10em;
+  letter-spacing: .15em;
   /* Adjust as needed */
   animation:
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
-
-  
 }
 
 /* The typing effect */
@@ -125,10 +123,15 @@ input:focus {
   }
 }
 
-@media (max-width: 599px){
-  .typewriter h2{
-    font-size: 30px;
-  }
+form.blur-sm {
+  filter: blur(5px);
+  pointer-events: none; /* Disable interaction with the form while loading */
 }
 
-
+.loader-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
