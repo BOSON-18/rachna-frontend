@@ -63,7 +63,7 @@ const Innovision = () => {
       <div className="content">
         {activeSection === 'welcome' && (
           <div>
-            <h2>Welcome to Innovision 2024</h2>
+            <h2>Innovision 2024</h2>
             <p>
             <p> Welcome to Innovision, brought to you by E-Cell IET DAVV. </p> <br /> <p> This event is your chance to showcase visionary business plans, cutting-edge products, and growth strategies to seasoned professionals. </p> <br /> <p> Join us for an enriching experience and stand a chance to win exciting prizes. Bring your ideas to life and celebrate innovation at Innovision!</p> <br /> <span id='boldkaro'> Don't miss out—register today and let your ideas shine!</span>
 
