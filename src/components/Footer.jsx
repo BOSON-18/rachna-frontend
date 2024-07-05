@@ -8,6 +8,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
+        <div></div>
         <div id="footer-logo">
           <img src={Ecell} alt="Ecell Logo" id="footer-ecell-image" />
         </div>
