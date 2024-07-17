@@ -35,7 +35,7 @@ function App() {
 						description="This is the description for Stage 4."
 					/> 
 				</div>
-				<Form />
+				
 				<Footer />
 			</div>
     )
