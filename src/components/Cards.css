@@ -61,6 +61,7 @@
 
 .card:hover .content {
   transform: rotateY(180deg);
+  
 }
 
 @keyframes rotation_481 {
@@ -98,6 +99,7 @@
 
 .front-content h3 {
   text-shadow: 2px 2px 5px #000;
+  text-align: center;
 }
 
 .description {

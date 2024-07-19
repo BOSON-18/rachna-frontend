@@ -133,13 +133,6 @@
   background-color: #50765a;
 } */
 
-#kuchhtoh {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 .content-button {
   margin-top: 5px;
   margin-bottom: 5px;

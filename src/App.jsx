@@ -5,37 +5,43 @@ import Card from './components/Cards';
 import Innovision from './components/Content';
 import Footer from './components/Footer';
 import { BsRocket } from 'react-icons/bs';
+import StageDesc from './components/StageDesc';
 
 
 function App() {
+
 	return (
 			
 			<div id='kuchh'>
 				<Header />
-				<Innovision />
-				<div className="cards-div">
-					<Card
-						stage="Stage 1"
-						title="Coming Soon!!"
-						description="This is the description for Stage 1."
-					/> 
-					<Card
-						stage="Stage 2"
-						title="Coming Soon!!"
-						description="This is the description for Stage 2."
-					/> 
-					<Card
-						stage="Stage 3"
-						title="Coming Soon!!"
-						description="This is the description for Stage 3."
-					/> 
-					<Card
-						stage="Stage 4"
-						title="Coming Soon!!"
-						description="This is the description for Stage 4."
-					/> 
-				</div>
-				
+			  <Innovision />
+				<div className='stages'>
+					<div className="cards-div">
+						<Card
+								stage="Stage - I"
+								title="Rachna"
+								description="The Beginning of Your Entrepreneurial Journey!"
+						/> 
+						<Card
+							stage="Stage - II"
+							title="Coming Soon!!"
+							description="description for Stage 2."
+						/> 
+						<Card
+							stage="Stage - III"
+							title="Coming Soon!!"
+							description="description for Stage 3."
+						/> 
+						<Card
+							stage="Stage - IV"
+							title="Coming Soon!!"
+							description="description for Stage 4."
+						/> 
+					</div>
+			</div>
+
+				<StageDesc />
+			
 				<Footer />
 			</div>
     )
